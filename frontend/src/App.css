@@ -1,0 +1,121 @@
+.app {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 0 16px 32px;
+}
+
+/* Time range picker */
+.time-range-picker {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  margin-bottom: 24px;
+}
+
+.presets {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+
+.presets button {
+  padding: 6px 14px;
+  border: 1px solid var(--accent);
+  border-radius: 999px;
+  background: var(--accent-bg);
+  color: var(--text-h);
+  cursor: pointer;
+}
+
+.inputs {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+}
+
+.inputs label {
+  display: flex;
+  flex-direction: column;
+  flex: 1 1 200px;
+  gap: 4px;
+  font-size: 14px;
+  color: var(--text-muted);
+}
+
+.inputs input {
+  padding: 6px 8px;
+  border: 1px solid var(--border);
+  border-radius: 6px;
+  background: var(--surface);
+  color: var(--text-h);
+}
+
+.error {
+  color: var(--error);
+  font-size: 14px;
+}
+
+/* Posts */
+.post-list {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.post-card {
+  border: 1px solid var(--border);
+  border-radius: 10px;
+  background: var(--surface);
+  overflow: hidden;
+}
+
+.post-card header {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  gap: 8px;
+  padding: 10px 12px;
+}
+
+.post-card .username {
+  color: var(--text-h);
+  font-weight: 600;
+}
+
+.post-card time {
+  color: var(--text-muted);
+  font-size: 13px;
+}
+
+.post-card img,
+.image-placeholder {
+  display: block;
+  width: 100%;
+  aspect-ratio: 1;
+  object-fit: cover;
+}
+
+.image-placeholder {
+  display: grid;
+  place-items: center;
+  background: var(--border);
+  color: var(--text-muted);
+  font-size: 14px;
+}
+
+.post-card .caption {
+  padding: 10px 12px 0;
+}
+
+.post-card a {
+  display: inline-block;
+  padding: 10px 12px 12px;
+  color: var(--accent);
+  font-size: 14px;
+}
+
+.status {
+  text-align: center;
+  color: var(--text-muted);
+  padding: 24px 0;
+}

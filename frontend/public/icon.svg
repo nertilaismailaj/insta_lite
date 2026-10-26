@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+  <rect width="512" height="512" rx="112" fill="#aa3bff"/>
+  <!-- Camera body with a clock face as the lens: "Instagram, time-limited" -->
+  <rect x="136" y="136" width="240" height="240" rx="64" fill="none" stroke="#fff" stroke-width="24"/>
+  <circle cx="256" cy="256" r="64" fill="none" stroke="#fff" stroke-width="20"/>
+  <path d="M256 220 V256 L280 272" fill="none" stroke="#fff" stroke-width="16" stroke-linecap="round" stroke-linejoin="round"/>
+  <circle cx="330" cy="182" r="12" fill="#fff"/>
+</svg>
